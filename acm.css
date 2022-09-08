@@ -1,0 +1,208 @@
+*{
+
+}
+body{
+    width: auto;
+    height: auto;
+    
+    
+    
+}
+.Heading{
+    top: 0%;
+    position: absolute;
+}
+.Event{
+    
+   margin-top: 0em;
+    
+
+    top: 0px;
+    position: absolute;
+    
+    
+
+    /* H1 */
+
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    
+    /* identical to box height */
+
+
+    /* Primary */
+
+    color: #4789C0; 
+    
+    /* padding-right: 30px; */
+    
+    
+    
+}
+.hori{
+     
+     
+width: 75vw;
+
+top: 0vw;
+left: 17vw ;
+position: absolute;
+margin-top: 3vw ;
+
+
+
+
+
+
+border: 3px solid #4789C0;
+
+ transform: rotate(-0.04deg);
+}
+
+.container{
+    position: absolute;
+    width: auto;
+height: auto;
+margin-left: 16vw;
+top: 18vw;
+font-family: 'Noto Sans', sans-serif;
+font-style: normal;
+overflow-wrap: break-word;
+
+background: #F9FCFF;
+
+
+
+display: flex;
+
+
+
+}
+.card1{
+    position: absolute;
+    width: 30vw;
+height: 17vw;
+margin-left: 0;
+
+font-family: 'Noto Sans', sans-serif;
+font-style: normal;
+overflow-wrap: break-word;
+transition: transform .2s;
+background: #F9FCFF;
+box-shadow: 4px 4px 4px  rgba(0, 0, 0, 0.25);
+border-radius: 12px 12px 12px 0px;
+
+
+display: flex;
+}
+.card1:hover{
+    transform: scale(1.05);
+    background: #F9FCFF;
+    
+}
+.text{
+    
+    margin-left: 15vw;
+    margin-right: 1vw;
+    font-size: 0.8vw;
+    
+}
+
+#h{
+    align-items: center;
+    margin-left: 3vw;
+    
+    
+}
+#con{
+    font-weight: normal;
+    margin-left: 1vw;
+    
+    
+}
+
+#name{
+    padding-left: 75px;
+    
+}
+#poster{
+    position: absolute;
+width: 14vw;
+height: 17vw;
+border-radius: 12px 12px 12px 12px;
+align-items: left;
+left: 0;
+top:0;
+
+} 
+.card2{
+    position: absolute;
+    width: 30vw;
+height: 17vw;
+left: 35vw;
+
+font-family: 'Noto Sans', sans-serif;
+font-style: normal;
+transition: transform .2s;
+
+background: #F9FCFF;
+box-shadow: 4px 4px 4px  rgba(0, 0, 0, 0.25);
+border-radius: 0px 12px 12px 0px;
+
+
+
+
+}
+.card2:hover{
+    transform: scale(1.05);
+    background: #F9FCFF;
+    
+}
+
+
+#right{
+    box-sizing: border-box;
+
+    position: absolute;
+    
+    left: 91vw;
+    top: 24vw;
+    
+    
+    background: #F9FCFF;
+    
+}
+#left{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6vw;
+    
+    top: 24vw;
+    
+    
+    background: #F9FCFF;
+    
+}
+.newev{
+    position: absolute;
+width: 293px;
+height: 53px;
+left: 69vw;
+top: 37vw;
+
+/* H3 */
+
+font-family: 'Noto Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 53px;
+
+/* Primary */
+
+color: #4789C0;
+}
+30
