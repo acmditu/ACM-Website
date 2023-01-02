@@ -1,0 +1,102 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .Title_our_blogs{
+      font-size: 3rem;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bolder;
+      background-color: #3051FF;
+  }
+  .left_container{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content:end;
+      margin-left: 25rem;
+      margin-top: 3rem;
+  }
+  .Event_image1{
+      content: url(/Blogs_Page/Images/Acm_Image_102.webp);
+      width: 29rem;
+      height: 18rem;
+      margin-right: 58rem;
+  }
+  .right_container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  .Event_image4{
+      content: url(/Blogs_Page/Images/Acm_Image_102.webp);
+      width: 29rem;
+      height: 18rem;
+      margin-left: 58rem;
+  }
+  .Event_image6{
+      content: url(/Blogs_Page/Images/Acm_Image_103.jpg);
+      width: 29rem;
+      height: 18rem;
+      margin-right: 58rem;
+  }
+  /* Javascript for date */
+  .year{
+      display: flex;
+      color: #ffffff;
+      font-size: 5rem;
+  }
+  .year_Box{
+      /* date box*/
+      display: block;
+      width: 3.4375rem;
+      height: 10rem;
+      margin-left: 45.75rem;
+   }
+  #ddlYears{   
+      /*year -javascript*/
+      width: 3.4375rem;
+      height: 1.875rem;
+      margin-left: 0.6rem;
+      margin-top: 3rem;
+      /* display:block; */
+  }
+  /* Javascript ends */
+  /* Circles in between line */
+  .circle_1{
+      height: 1.25rem;
+      width: 1.25rem;
+      border-radius: 50%;
+      margin-left: 47.6rem;
+      margin-top: -148rem;
+      background: #3051FF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .circle_2{
+      height: 1.25rem;
+      width: 1.25rem;
+      border-radius: 50%;
+      margin-left: 47.6rem;
+      margin-top: 17rem;
+      background: #3051FF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+  }
+  .circle_3{
+      height: 1.25rem;
+      width: 1.25rem;
+      border-radius: 50%;
+      margin-left: 47.6rem;
+      margin-top: 17rem;
+      background: #3051FF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+  }
+  .line-1{
+      border-left: 8px solid #3051FF;
+      height: 150rem;
+      margin-left: 48rem;
+      margin-top: -48rem;
+  }
