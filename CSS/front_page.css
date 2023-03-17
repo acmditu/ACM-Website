@@ -71,6 +71,42 @@ header
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+/* Setting media queries for the transbox2-Hardik */
+@media only screen and (max-width:765px){
+    .logo1{
+        display: none;
+    }
+    .logo2{
+        display: none;
+    }
+    .transbox2 .heading1{
+        font-size: 2.7em;
+    }
+    .transbox2 .heading2 span{
+        font-size: 1em;
+    }
+    .transbox2 .heading2{
+        font-size: 2.9em;
+    }
+    .transbox2 .heading3{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width:485px){
+    .transbox2 .heading2 span{
+        font-size: 0.8em;
+    }
+    .transbox2 .heading1{
+        font-size: 2.6em;
+    }
+    .transbox2 .heading2{
+        font-size: 2.2em;
+    }
+    .transbox2 .heading3{
+        font-size: 1.3em;
+    }
+}
+/* Media uery setup of transbox2 ends here */
 .Text{/*common properties for all the text present on the blue box*/ 
     display: inline-block;
     text-align: center;
