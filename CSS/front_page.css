@@ -240,8 +240,11 @@ span{/*Setting properties for < and > symbol which is present before and after t
             align-items: center;
         }
         .transbox3{
-            height: 30rem;
+            height: 17rem;
             
+        }
+        .Gallery{
+            height: 20vh;
         }
 }
 /* For ipad */
@@ -258,6 +261,7 @@ span{/*Setting properties for < and > symbol which is present before and after t
         .item{
             margin-left: 2vw;
         }
+        
        
 }
 
@@ -315,6 +319,13 @@ span{/*Setting properties for < and > symbol which is present before and after t
         align-items: center;
         padding: 1.0rem;
         overflow-x: scroll;
+        height: 15vh;
+    }
+    .transbox3{
+        height: 10rem;
+    }
+    .item{
+        height: 100px;
     }
     .leftgallerybttn, .rightgallerybttn{
         /* display: none; */
