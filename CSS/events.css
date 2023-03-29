@@ -27,11 +27,12 @@ margin-top: 5vh;
 }
 .event_center{
     display: flex;
-    width:68%;
+    width: 73%;
     justify-content: space-between;
+    padding: 2vh 0 2vh 0 ;
 }
 .Eventscard{
-width: 30vw;
+width: 32vw;
 height: 17vw;
 background: #F9FCFF;
 box-shadow: 0.5vw 0.5vw 0.5vw  rgba(0, 0, 0, 0.25);
@@ -58,6 +59,7 @@ margin: 0 10px;
 .Eventsh{
     /* border:1px solid purple;  */
     height:20%;
+    margin: 0.5vh 0 0 0.6vw ;
 }
 #con{
     /* width: 90%; */
@@ -76,7 +78,7 @@ border-radius: 1.5vw 0vw 0vw 1.5vw;
 /* next buttons */
 .Eventscards{
     position: relative;
-    top: -11.5vw;
+    top: -14.5vw;
 }
 #right{
     /* styling for the right svg */
