@@ -92,6 +92,9 @@
     font-size: 1rem;
     font-weight: 500;
   }
+  .accordion-item-body-content {
+    padding: 1rem 0rem 0rem 0.5rem;
+  }
 }
 @media(max-width:767px) {
   html {

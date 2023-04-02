@@ -149,7 +149,7 @@ a{
         height: auto;
     }
     .Eventscard{
-        width: 60vw;
+        width: 65vw;
         height: 45vw;
     }
     .Eventscards{
@@ -157,6 +157,7 @@ a{
     }
     #con{
         font-size: 2vw;
+        padding-top: 8px;
     }
     .Eventstext{
         font-size: 2vw;
