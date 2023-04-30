@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css"> 
+    <title>Blog Page</title>
+</head>
+<div class="Main">
+    <!-- Heading -->
+    <div class="Title_our_blogs"><P>OUR BLOGS</p></div>
+    <!-- javascript year button  -->
+    <div class="year_Box">
+        <select id="ddlYears"></select>
+        <script type="text/javascript">
+        window.onload = function () {
+            //Reference the DropDownList.
+            var ddlYears = document.getElementById("ddlYears");
+    
+            //Determine the Current Year.
+            var currentYear = (new Date()).getFullYear();
+    
+            //Loop and add the Year values to DropDownList.
+            for (var i = 2015; i <= currentYear; i++) {
+                var option = document.createElement("OPTION");
+                option.innerHTML = i;
+                option.value = i;
+                ddlYears.appendChild(option);
+            }
+        };
+        </script>
+    </div> 
+    <!-- javascript year button ends -->
+    <div class="left_container">
+        <div class="Event_image1"></div>
+        <div class="Event_image2"></div>
+        <div class="Event_image3"></div>
+    </div>
+    <div class="line"></div>
+    <div class="right_container">
+        <div class="Event_image4"></div>
+        <div class="Event_image5"></div>
+        <div class="Event_image6"></div>
+    </div>
+       
+    <div class="middle_container">
+        <div>
+            <div class="line-1"></div>
+            <div class="circle_1"></div>
+            <div class="circle_2"></div>
+            <div class="circle_3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<body>
+
+</body>
+</html>
